@@ -1,0 +1,26 @@
+TRX Training – Web-App zum Selbsthosten
+
+Inhalt
+  index.html             die App
+  manifest.webmanifest   App-Name, Symbol, Vollbild-Start
+  sw.js                  macht die App offline nutzbar
+  icons/                 App-Symbole
+
+Veröffentlichen mit GitHub Pages
+  1. Auf github.com ein neues öffentliches Repository anlegen, z. B. "trx".
+  2. "Add file" > "Upload files": den gesamten Inhalt dieses Ordners hochladen
+     (index.html muss direkt im Hauptverzeichnis liegen, der Ordner icons mit hochladen).
+  3. Settings > Pages > Source: "Deploy from a branch", Branch "main", Ordner "/ (root)", Speichern.
+  4. Nach 1–2 Minuten ist die App unter https://<benutzername>.github.io/trx/ erreichbar.
+
+Auf dem Handy installieren
+  iPhone:  Adresse in Safari öffnen > Teilen-Symbol > "Zum Home-Bildschirm".
+  Android: Adresse in Chrome öffnen > Menü (drei Punkte) > "App installieren".
+
+Updates
+  Geänderte index.html hochladen und in sw.js die VERSION erhöhen (z. B. 'trx-v2').
+  Die App lädt die neue Fassung beim nächsten oder übernächsten Öffnen.
+
+Daten
+  Trainings werden nur auf dem Handy gespeichert. Ab und zu unter
+  "Plan bearbeiten" > "Exportieren" eine Sicherung machen.
